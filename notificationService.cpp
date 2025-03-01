@@ -2,28 +2,39 @@
 Below is a simple, step-by-step summary of the SOLID principles and how to apply them:
 
 1. Single Responsibility Principle (SRP):
-    Identify each class’s one unique responsibility.
-    Ensure that every class has only one reason to change.
+      Identify each class’s one unique responsibility.
+      Ensure that every class has only one reason to change.
+    How to use it:
+      Divide the code into small ingredients, each dealing with a specific part of the functions.
+      If you notice that the class does more than one function, re-division it.
 
 2. Open/Closed Principle (OCP):
-    Design classes so they are open to extension (e.g., via inheritance or interfaces) but closed to modification.
-    Add new functionality by extending the class rather than altering existing code.
+      Design classes so they are open to extension (e.g., via inheritance or interfaces) but closed to modification.
+      Add new functionality by extending the class rather than altering existing code.
+    How to use it:
+      Invest in the use of inheritance or interfaces to expand functionality, rather than modify the basic code.
 
 3. Liskov Substitution Principle (LSP):
-    Ensure that any subclass can replace its parent class without breaking the application.
-    Maintain the expected behavior defined by the base class in all derived classes.
+      Ensure that any subclass can replace its parent class without breaking the application.
+      Maintain the expected behavior defined by the base class in all derived classes.
+    How to use it:
+      When designing a basic class and sub-classes,
+      make sure that the sub-classes implement the same interface consistently without changing the agreed nodes.
 
 4. Interface Segregation Principle (ISP):
-    Create small, focused interfaces rather than large, general-purpose ones.
-    Clients should only depend on the methods they actually need.
+      Create small, focused interfaces rather than large, general-purpose ones.
+      Clients should only depend on the methods they actually need.
+    How to use it:
+      Divide the large interfaces into smaller and specialized interfaces so that they only use all the interfaces that suit them.
 
 5. Dependency Inversion Principle (DIP):
-    Depend on abstractions (interfaces or abstract classes) rather than on concrete implementations.
-    Use techniques like dependency injection to decouple high-level modules from low-level modules.
+      Depend on abstractions (interfaces or abstract classes) rather than on concrete implementations.
+      Use techniques like dependency injection to decouple high-level modules from low-level modules.
+    How to use it:
+      Use techniques such as Dependency Injection so that classes depend on abstract interfaces or objects, not on specific applications.
 
 By following these steps, you ensure that your code is modular, maintainable, and easily extendable.
 */
-
 
 // Below is the same example code, with inline comments explaining each SOLID principle:
 
